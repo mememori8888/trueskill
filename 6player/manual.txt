@@ -1,0 +1,33 @@
+###########仕様##################
+6player 及び　5playerのバージョンに分けて、
+
+trueskillのrate関数で、各プレイヤーのスキル、ランクの結果に基づいて、再計算している。
+
+計算結果は、各プレイヤーの基本的なスキルポイントであるmu値と安定性を表すsigma値
+
+##########手順####################
+
+pythonのインストール
+https://www.python.jp/install/windows/install.html
+の「パッケージのダウンロード」「パッケージのインストール」まで
+pythonのバージョンは 3.10.7
+
+ライブラリのインストール
+pip install --upgrade pip
+pip install -r requirements.txt
+
+csvのファイルパスの入力
+6player.py 及び　5player.py の変数filepathを　任意のパスに書き換えてください。
+
+6player.py および　5player.pyの実行
+コマンドラインで
+ptyhon 6player.py
+もしくは
+python 5player.py
+
+各output.csvの確認
+フォルダ内にファイルが生成されます。
+
+
+
+
